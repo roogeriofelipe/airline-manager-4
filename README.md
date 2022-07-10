@@ -17,7 +17,7 @@ https://www.ruby-lang.org/en/documentation/installation/
 - Bundle
 https://bundler.io/
 - WebDriver
-- https://chromedriver.chromium.org/downloads
+https://chromedriver.chromium.org/downloads
 
 Finally, we need to download ChromeDriver. Pay attention to your Chrome version and ChromeDriver version, which should be the same.
 A new page will appear. Select the zip corresponding to your Operating System (Windows in our case) and download it. Extract the file and place it in your Ruby's bin folder. On my computer, the folder is at the following address: C:\Ruby25-x64\bin
