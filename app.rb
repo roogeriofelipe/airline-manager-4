@@ -3,17 +3,21 @@ require "rspec"
 
 describe "teste" do
     it "acess the website" do
-        #driver = Selenium::WebDriver.for :chrome
+        driver = Selenium::WebDriver.for :chrome
 
-        options = Selenium::WebDriver::Chrome::Options.new
-        options.add_argument('--headless')
-        driver = Selenium::WebDriver.for :chrome, options: options
+        #options = Selenium::WebDriver::Chrome::Options.new
+        #options.add_argument('--headless')
+        #driver = Selenium::WebDriver.for :chrome, options: options
+
+        driver.navigate.to "https://www.airline4.net/" rescue next
+
+        sleep(30)
 
         can_fly = true
 
         programa = true
         while programa
-            driver.navigate.to "https://www.airline4.net/?gameType=app&uid={YOUR-U-ID}&uid_token={YOUR-U-ID-TOKEN&mail={YOUR-MAIL}&mail_token={YOUR-MAIL-TOKEN}&device={YOUR-DEVICE}&version={YOUR-VERSION}#" rescue next
+            driver.navigate.to "https://www.airline4.net/" rescue next
             puts "INICIANDO OS TRABALHOS NA CIA AEREA"
             sleep(5)
 
