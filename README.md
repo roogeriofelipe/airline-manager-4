@@ -25,6 +25,10 @@ A new page will appear. Select the zip corresponding to your Operating System (W
 Por fim, precisamos baixar o ChromeDriver. Atente-se para a sua versão do Chrome e a versão do ChromeDriver, que deve ser a mesma.
 Uma nova página surgirá. Selecione o zip correspondente ao seu Sistema Operacional (Windows no nosso caso) e baixe-o. Extraia o arquivo e o coloque na pasta bin do seu Ruby. No meu computador, a pasta está no seguinte endereço: C:\Ruby25-x64\bin.
 
+## Windows 
+If you use Windows, is necessary add the 'ffi'in the file 'gemfile'. Edit the file 'gemfile' and add (gem 'ffi') under the existing gems.
+Se você utiliza o Windows é necessário adicionar o 'ffi' no arquivo gemfile. Edite o arquivo gemfile, e adicione gem 'ffi' abaixo das gems já existentes.
+
 
 ## Edit Variables
 Edit variable in app.rb, replace the values on brackets {}.
