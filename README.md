@@ -1,6 +1,14 @@
 # airline-manager-4-
 Automation of Game Airline Manager 4.
 
+## Contribution
+If you want to contribute to this project, you can send Pull Request.
+If you want to send suggestions for improvements, you can open an issue that we can evaluate for implementation.
+
+PT-BR
+Se você quiser contribuir para este projeto, pode enviar Pull Request.
+Se você quiser enviar sugestões de melhorias, pode abrir uma edição que podemos avaliar de implementação.
+
 ## Installation
 Install Airline Manager 4 with bundle
 
