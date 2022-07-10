@@ -29,11 +29,6 @@ Uma nova página surgirá. Selecione o zip correspondente ao seu Sistema Operaci
 If you use Windows, is necessary add the 'ffi'in the file 'gemfile'. Edit the file 'gemfile' and add (gem 'ffi') under the existing gems.
 Se você utiliza o Windows é necessário adicionar o 'ffi' no arquivo gemfile. Edite o arquivo gemfile, e adicione gem 'ffi' abaixo das gems já existentes.
 
-
-## Edit Variables
-Edit variable in app.rb, replace the values on brackets {}.
-https://www.airline4.net/?gameType=app&uid={YOUR-U-ID}&uid_token={YOUR-U-ID-TOKEN&mail={YOUR-MAIL}&mail_token={YOUR-MAIL-TOKEN}&device={YOUR-DEVICE}&version={YOUR-VERSION}#
-
 ## Install Gems
 ```bash
   bundle install
@@ -43,4 +38,8 @@ https://www.airline4.net/?gameType=app&uid={YOUR-U-ID}&uid_token={YOUR-U-ID-TOKE
 ```bash
   bundle exec rspec app.rb
 ```
-    
+
+# Setup
+Login in your account to automation works.
+
+Logue em sua conta para a automação funcionar.
